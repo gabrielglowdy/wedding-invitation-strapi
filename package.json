@@ -1,5 +1,5 @@
 {
-  "name": "wedding-strapi",
+  "name": "my-project",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.5.6",
-    "@strapi/plugin-users-permissions": "4.5.6",
-    "@strapi/plugin-i18n": "4.5.6",
-    "better-sqlite3": "7.4.6"
+    "@strapi/strapi": "4.8.2",
+    "@strapi/plugin-users-permissions": "4.8.2",
+    "@strapi/plugin-i18n": "4.8.2",
+    "mysql": "2.18.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "00d058d7-fd9d-440c-b275-a2858cf10f4c"
+    "uuid": "6e27f1d4-4708-4dd4-9e71-708a6e12ce3d"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
