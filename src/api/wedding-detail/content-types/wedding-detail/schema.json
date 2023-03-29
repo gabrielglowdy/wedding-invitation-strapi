@@ -1,0 +1,103 @@
+{
+  "kind": "singleType",
+  "collectionName": "wedding_details",
+  "info": {
+    "singularName": "wedding-detail",
+    "pluralName": "wedding-details",
+    "displayName": "wedding-detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "groom": {
+      "type": "string"
+    },
+    "bride": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "groom_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bride_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "groom_father": {
+      "type": "string"
+    },
+    "groom_mother": {
+      "type": "string"
+    },
+    "bride_father": {
+      "type": "string"
+    },
+    "bride_mother": {
+      "type": "string"
+    },
+    "groom_address": {
+      "type": "text"
+    },
+    "bride_address": {
+      "type": "text"
+    },
+    "akad_date": {
+      "type": "date"
+    },
+    "akad_start": {
+      "type": "time"
+    },
+    "akad_end": {
+      "type": "time"
+    },
+    "reception_date": {
+      "type": "date"
+    },
+    "reception_start": {
+      "type": "time"
+    },
+    "reception_end": {
+      "type": "time"
+    },
+    "photo_1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "photo_2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

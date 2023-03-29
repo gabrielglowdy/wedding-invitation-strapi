@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "song_categories",
+  "info": {
+    "singularName": "song-category",
+    "pluralName": "song-categories",
+    "displayName": "Song Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}
