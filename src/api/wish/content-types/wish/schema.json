@@ -4,10 +4,11 @@
   "info": {
     "singularName": "wish",
     "pluralName": "wishes",
-    "displayName": "wish"
+    "displayName": "wish",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -19,6 +20,9 @@
       "relation": "manyToOne",
       "target": "api::guest.guest",
       "inversedBy": "wishes"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }

@@ -79,25 +79,51 @@
     "reception_end": {
       "type": "time"
     },
-    "photo_1": {
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
-    "photo_2": {
+    "big_photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "groom_label": {
+      "type": "string"
+    },
+    "bride_label": {
+      "type": "string"
+    },
+    "father_label": {
+      "type": "string"
+    },
+    "mother_label": {
+      "type": "string"
+    },
+    "place_address": {
+      "type": "string"
+    },
+    "place_url": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    },
+    "calendar_url": {
+      "type": "text"
     }
   }
 }

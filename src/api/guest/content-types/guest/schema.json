@@ -36,6 +36,21 @@
       "relation": "oneToMany",
       "target": "api::wish.wish",
       "mappedBy": "guest"
+    },
+    "is_confirm_rsvp": {
+      "type": "boolean"
+    },
+    "person_come": {
+      "type": "integer"
+    },
+    "invite_akad": {
+      "type": "boolean"
+    },
+    "invite_reception": {
+      "type": "boolean"
+    },
+    "is_sent_wish": {
+      "type": "boolean"
     }
   }
 }
