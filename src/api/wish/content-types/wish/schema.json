@@ -23,6 +23,12 @@
     },
     "name": {
       "type": "string"
+    },
+    "guest_syukuran": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::guest-syukuran.guest-syukuran",
+      "inversedBy": "wishes"
     }
   }
 }

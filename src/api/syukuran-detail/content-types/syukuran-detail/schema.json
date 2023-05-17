@@ -1,0 +1,129 @@
+{
+  "kind": "singleType",
+  "collectionName": "syukuran_details",
+  "info": {
+    "singularName": "syukuran-detail",
+    "pluralName": "syukuran-details",
+    "displayName": "Syukuran Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "groom": {
+      "type": "string"
+    },
+    "bride": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "groom_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bride_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "groom_father": {
+      "type": "string"
+    },
+    "groom_mother": {
+      "type": "string"
+    },
+    "bride_father": {
+      "type": "string"
+    },
+    "bride_mother": {
+      "type": "string"
+    },
+    "groom_address": {
+      "type": "string"
+    },
+    "bride_address": {
+      "type": "string"
+    },
+    "akad_date": {
+      "type": "date"
+    },
+    "akad_start": {
+      "type": "time"
+    },
+    "akad_end": {
+      "type": "time"
+    },
+    "reception_date": {
+      "type": "date"
+    },
+    "reception_start": {
+      "type": "time"
+    },
+    "reception_end": {
+      "type": "time"
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "big_photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "groom_label": {
+      "type": "string"
+    },
+    "bride_label": {
+      "type": "string"
+    },
+    "father_label": {
+      "type": "string"
+    },
+    "mother_label": {
+      "type": "string"
+    },
+    "place_address": {
+      "type": "string"
+    },
+    "place_url": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    },
+    "calendar_url": {
+      "type": "string"
+    }
+  }
+}

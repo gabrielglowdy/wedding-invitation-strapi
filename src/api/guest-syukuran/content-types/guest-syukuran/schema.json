@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guest_syukurans",
+  "info": {
+    "singularName": "guest-syukuran",
+    "pluralName": "guest-syukurans",
+    "displayName": "Guest Syukuran",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "is_open": {
+      "type": "boolean"
+    },
+    "can_come": {
+      "type": "boolean"
+    },
+    "keterangan": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "wishes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::wish.wish",
+      "mappedBy": "guest_syukuran"
+    },
+    "is_confirm_rsvp": {
+      "type": "boolean"
+    },
+    "person_come": {
+      "type": "integer"
+    },
+    "invite_akad": {
+      "type": "boolean"
+    },
+    "invite_reception": {
+      "type": "boolean"
+    },
+    "is_sent_wish": {
+      "type": "boolean"
+    }
+  }
+}
